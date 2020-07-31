@@ -24,7 +24,7 @@ class WidgetContainerPageState extends State<WidgetContainerPage> {
           crossAxisCount: 3,
           children: <Widget>[
             getCard("/base_widget_container", "基础组件", "在构建您的第一个Flutter应用程序之前，您绝对需要了解这些widget。"),
-            getCard("/screen_demo", "Material Components", "实现了Material Design 指南的视觉、效果、motion-rich的widget。"),
+            getCard("/base_widget_container", "Material Components", "实现了Material Design 指南的视觉、效果、motion-rich的widget。"),
             getCard("/screen_demo", "Cupertino(iOS风格的widget)", "用于当前iOS设计语言的美丽和高保真widget。"),
             getCard("/screen_demo", "Layout", "排列其它widget的columns、rows、grids和其它的layouts。"),
             getCard("/screen_demo", "Text", "文本显示和样式"),
